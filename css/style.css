@@ -45,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    overflow-x: hidden;
 }
 
 .container {
@@ -60,6 +61,9 @@ body {
 
 .main-content {
     flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .header-content {
@@ -190,7 +194,7 @@ body {
 
 .logo-png {
     top: -50px;
-    left:-80px;
+    left: -80px;
     position: absolute;
     width: 160px;
     height: 160px;
@@ -200,13 +204,13 @@ body {
     position: relative;
     margin-top: 20px;
     background-color: #F8F8F2;
-
+    padding: 50px;
 
 }
 
 .main-top-heading {
     margin-top: 0;
-    padding-top: 50px;
+    padding-bottom: 80px;
     text-align: center;
     color: #000;
     text-align: center;
@@ -266,15 +270,23 @@ body {
 .our-collection-img {
     position: absolute;
     top: 0;
-    left: -205px;
+    left: -190px;
 }
 
 .our-collection-img2 {
     position: absolute;
-    right: -196px;
+    bottom: 690px;
+    right: -200px;
 }
 
 .our-collection-img3 {
     position: absolute;
-    left: -258px;
+    bottom: 600px;
+    right: -230px;
+}
+
+.our-collection-img4 {
+    position: absolute;
+    bottom: 200px;
+    left: -200px;
 }
