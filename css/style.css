@@ -45,14 +45,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .container {
     width: 100%;
-    max-width: 1440px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 1500px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -123,8 +123,8 @@ body {
 
 .header-main-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-
 }
 
 .header-main-wrapper {
@@ -173,6 +173,12 @@ body {
     letter-spacing: 1px;
 }
 
+.button:hover{
+    opacity: 0.8;
+}
+.button:active{
+    opacity: 0.6;
+}
 .button-green {
 
     background: #0A775F;
@@ -201,7 +207,8 @@ body {
     width: 160px;
     height: 160px;
 }
-
+.header-logo-bg{
+}
 .main-top {
     position: relative;
     margin-top: 20px;
@@ -295,8 +302,8 @@ body {
 
 .feature-content {
     background-image: url(/img/Rectangle\ 116.svg);
-    background-repeat: no-repeat;
     margin-bottom: 80px;
+    background-repeat-y: no-repeat;
 }
 
 .feature-wrapper {
@@ -355,12 +362,18 @@ body {
 }
 
 .feature-list {
+    width: 100%;
+    max-width: 1339px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    margin: 0;
     padding: 0;
+
 }
 
 .feature-list-item {
+    width: 100%;
+    max-width: 433px;
     list-style: none;
 }
 
@@ -370,6 +383,8 @@ body {
 }
 
 .span {
+    position: absolute;
+    top: -90px;
     width: 60px;
     height: 60px;
     flex-shrink: 0;
@@ -397,12 +412,13 @@ body {
     font-weight: 400;
     line-height: 28px;
 }
-
-.promo {
-    padding-top: 50px;
-    padding-bottom: 80px;
+.promo{
     margin-top: 0;
     margin-bottom: 50px;
+}
+.promo-container {
+    padding-top: 50px;
+    padding-bottom: 80px;
     background-image: url(/img/Rectangle\ 116.png);
 }
 
@@ -433,7 +449,8 @@ body {
 }
 
 .promo-list {
-
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     padding: 0;
     margin-bottom: 60px;
@@ -443,6 +460,7 @@ body {
 
 
 .promo-list-link {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 433px;
