@@ -179,7 +179,9 @@ body {
 }
 
 .button-burlywood {
+    text-decoration: none;
     background: burlywood;
+    margin-left: 604px;
 }
 
 .header-main-bottom-bg {
@@ -289,4 +291,272 @@ body {
     position: absolute;
     bottom: 200px;
     left: -200px;
+}
+
+.feature {}
+
+.feature-content {
+   min-width: 1470px;
+    width: 100%;
+    height: 700px;
+    background-image: url(/img/Rectangle\ 116.svg);
+   
+}
+
+.feature-wrapper {
+
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.feature-heading {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.feature-text {
+    margin: 0;
+    margin-bottom: 80px;
+    width: 581px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.feature-inner {
+    margin-bottom: 80px;
+}
+
+.wrapper-list {
+    position: relative;
+    bottom: 350px;
+
+}
+
+.images {
+    display: flex;
+    position: absolute;
+    background-image: url(/img/Group.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 144px;
+    top: -50px;
+    left: -50px;
+}
+
+.img {
+    margin-right: 20px;
+}
+
+.feature-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-list-item {
+    list-style: none;
+}
+
+.feature-list-item:not(:last-child) {
+    margin-right: 90px;
+
+}
+
+.feature-list-item-heading {
+    color: #333;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-variant: all-small-caps;
+
+}
+
+.feature-list-item-text {
+    width: 377px;
+    color: #333;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.promo {}
+
+.promo-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    background-image: url(/img/Rectangle\ 116.png);
+}
+
+.promo-wrapper {}
+
+.promo-wrapper-heading {
+    margin-top: 0;
+    margin-bottom: 200px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.promo-logo {
+    position: relative;
+
+}
+
+.promo-img-svg {
+    margin-bottom: 50px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.promo-list {
+
+    display: flex;
+    /* margin: 0; */
+    padding: 0;
+    margin-bottom: 60px;
+    counter-reset: tartib;
+ 
+}
+
+
+.promo-list-link {
+    display: flex;
+    flex-direction: column;
+    width: 433px;
+    background-color: #f8f8f2;
+    list-style-type: none;
+    padding-top: 20;
+    padding-left: 20px;
+    padding-right: 28px;
+    padding-bottom: 40px;
+    counter-increment: tartib;
+}
+
+.promo-list-link::before {
+    color: #333;
+    font-family: 'Roboto';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: all-small-caps;
+    opacity: 0.8;
+    align-self: flex-end;
+    content: '0' counter( tartib);
+    margin-bottom: 45px;
+}
+
+.promo-list-link:not(:last-child) {
+    margin-right: 20px;
+}
+
+.promo-list-box {
+    top: 0;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #C99B67;
+    background: #F8F8F2;
+}
+
+.promo-content {
+    display: flex;
+}
+
+.promo-heading {
+    margin-top: 0;
+    color: #333;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-variant: all-small-caps;
+
+}
+
+.promo-text {
+    margin: 0;
+    color: #333;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer {
+    background-image: url(/img/Rectangle\ 678.jpg);
+}
+
+.footer-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.footer-content {}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-img-bg {}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.footer-list-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.footer-link {
+    color: #333;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+
 }
